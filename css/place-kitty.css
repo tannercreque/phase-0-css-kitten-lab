@@ -1,14 +1,18 @@
 /* Select the image with a class of kitty-1 */
+p.img {
+  img.kitty-1
+}
 
-/*__write_selector_here__*/ {
+ {
   position: absolute;
   z-index: 1;
-  top: 276px;
+  top: 1000px;
   left: 129px;
 }
 
-/* Select the image with id of kitty-2 */
-
+p.img {
+  kitty-2
+}
 /*__write_selector_here__*/ {
   position: absolute;
   z-index: 2;
